@@ -37,7 +37,6 @@ while (cap.isOpened()):
     x, y, w, h = 0, 0, 300, 300
     cv2.rectangle(im, (x, y), (x + w, y + h), (0, 255, 0), 2)
     cv2.putText(im, str(nb), (10,380),cv2.FONT_HERSHEY_DUPLEX, 2, (0, 255, 255), 3)
-    cv2.putText(im, str(nbr), (5,300),cv2.FONT_HERSHEY_DUPLEX, 2, (0, 255, 255), 3)
     
 
     cv2.imshow("Contours", thresh1)
